@@ -90,7 +90,7 @@ do
 
 		draw.Transparency = 1
 		local text = Drawing.new('Text')
-		text.Text = 'Ninew Hub\n\n\n\nDeveloped By:\nKitsakorn'
+		text.Text = '  Ninew Hub\n\n\n\nDeveloped By:\nKitsakorn'
 		text.Center = true
 		text.Color = Color3.fromRGB(255,255,255)
 		text.Size = 30
@@ -126,8 +126,8 @@ do
 
 	Main.GUI = Instance.new('ScreenGui', Main.Services.CoreGui)
 	Main.GUI.Name = 'LB UI Library' .. getService('HttpService'):GenerateGUID()
-	sendNotification('Ninew Hub', 'Success!\n เสร็จสิ้น')
-	sendNotification('Discord', '`discord.gg/familynewth')
+	sendNotification('Ninew Hub', 'Success! | เสร็จสิ้น')
+	sendNotification('Discord', 'discord.gg/familynewth')
 
 	function LB_MODULE:Create(window, instance, props)
 		local a = Instance.new(instance)
